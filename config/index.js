@@ -1,15 +1,18 @@
 export const config = {
-  env: "prod",
+  env: "local",
   LOCAL_API_URL: "localhost:3000",
-  API_URL: "odp-rarity.vercel.app",
-  COLLECTION_NAME: "OneDayPunks",
-  COLLECTION_TITLE: "One Day Punks",
-  COLLECTION_DESCRIPTION: '10k "One Day I\'ll Be A Punk"-punks.',
-  COLLECTION_IMG_LINK: "https://punkscape.xyz/og.png",
+  API_URL:
+    "https://eth-goerli.g.alchemy.com/v2/AbjInDgpoFrJBlXHhCd3Ve-2PuxQRncf",
+  COLLECTION_NAME: "DETSBKNFT",
+  COLLECTION_TITLE: "DET SBK NFTs",
+  COLLECTION_DESCRIPTION:
+    "DET SBK is a collection of NFTs based on skills, background and knowledge gained",
+  COLLECTION_IMG_LINK:
+    "https://ipfs.filebase.io/ipfs/QmcfsZCGdcXyHJP8MupMQwYuSET8TFJCHUhAaoJwe4EJuP/",
   CONTRACT: {
     // if you're not sure, set CONTRACT: {}, will remove opensea link
-    CHAIN: "ethereum", //possible values of ethereum, matic (polygin), klatyn, solana
-    ADDRESS: "0x5537d90a4a2dc9d9b37bab49b490cf67d4c54e91", //note: for solana these values change, so currently not supported
+    CHAIN: "goerli", //possible values of ethereum, matic (polygin), klatyn, solana
+    ADDRESS: "0x305c8701Ddb85a398562D5df9F11e7b2682bE814", //note: for solana these values change, so currently not supported
   },
   WEIGHTS: {},
 };
