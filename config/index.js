@@ -1,8 +1,7 @@
 export const config = {
   env: "prod",
   LOCAL_API_URL: "localhost:3000",
-  API_URL:
-    "https://eth-goerli.g.alchemy.com/v2/AbjInDgpoFrJBlXHhCd3Ve-2PuxQRncf",
+  API_URL: "https://nft-rarity-analyzer-9uufqvjsu-tmcneilley.vercel.app/",
   COLLECTION_NAME: "DETSBKNFT",
   COLLECTION_TITLE: "DET SBK NFTs",
   COLLECTION_DESCRIPTION:
