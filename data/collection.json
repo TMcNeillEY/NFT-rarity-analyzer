@@ -598,5 +598,44 @@
                 "value": "HTML5 Boilerplate"
             }
         ]
+    },
+    {
+        "name": "DET SBK #16",
+        "description": "DET SBK is a collection of NFTs based on skills, background and knowledge gained.",
+        "image": "https://ipfs.filebase.io/ipfs/QmcfsZCGdcXyHJP8MupMQwYuSET8TFJCHUhAaoJwe4EJuP/3.svg",
+        "attributes": [
+            {
+                "trait_type": "OS Skills",
+                "value": "Windows 95"
+            },
+            {
+                "trait_type": "Text Editor",
+                "value": "Bluefish"
+            },
+            {
+                "trait_type": "Degree",
+                "value": "Master of Science"
+            },
+            {
+                "trait_type": "Language",
+                "value": "Swift"
+            },
+            {
+                "trait_type": "Industry",
+                "value": "Nonprofit"
+            },
+            {
+                "trait_type": "Location",
+                "value": "Goa"
+            },
+            {
+                "trait_type": "Certifications",
+                "value": "AWS Solutions Architect"
+            },
+            {
+                "trait_type": "Front-End",
+                "value": "Design systems"
+            }
+        ]
     }
 ]
